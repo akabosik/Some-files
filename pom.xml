@@ -1,81 +1,30 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> fe9b1c5692e6c943af468db36476a1dc8dff21fa
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.mycompany.app</groupId>
-<<<<<<< HEAD
-  <artifactId>Ball</artifactId>
-  <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>Ball Maven Webapp</name>
-  <url>http://maven.apache.org</url>
-=======
-  <artifactId>my-webapp</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <name>my-webapp Maven Webapp</name>
-  <url>http://maven.apache.org</url>
-  
-  <packaging>jar</packaging>
-  
->>>>>>> fe9b1c5692e6c943af468db36476a1dc8dff21fa
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-<<<<<<< HEAD
-=======
-=======
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>Rune</groupId>
-  <artifactId>Rune</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name> VFS</name>
-  <dependencies>
-  <dependency>
->>>>>>> fe9b1c5692e6c943af468db36476a1dc8dff21fa
-	<groupId>org.mybatis</groupId>
-	<artifactId>mybatis</artifactId>
-	<version>3.0.6</version>
-</dependency>
-<<<<<<< HEAD
-            <dependency>
-=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion> 
+  <groupId>com.mycompany.app</groupId> 
+  <artifactId>Ball</artifactId> 
+  <packaging>war</packaging> 
+  <version>1.0-SNAPSHOT</version> 
+  <name>Ball Maven Webapp</name> 
+  <url>http://maven.apache.org</url> 
+<dependencies>
 <dependency>
->>>>>>> ca87d6a76330340b678cb824d59964ca1a65cae0
->>>>>>> fe9b1c5692e6c943af468db36476a1dc8dff21fa
-	<groupId>postgresql</groupId>
-	<artifactId>postgresql</artifactId>
-	<version>9.1-901.jdbc4</version>
-</dependency>
-<<<<<<< HEAD
-            
+  <groupId>junit</groupId> 
+  <artifactId>junit</artifactId> 
+  <version>3.8.1</version> 
+  <scope>test</scope> 
+  </dependency>
+<dependency>
+  <groupId>org.mybatis</groupId> 
+  <artifactId>mybatis</artifactId> 
+  <version>3.0.6</version> 
+  </dependency>
+<dependency>
+  <groupId>postgresql</groupId> 
+  <artifactId>postgresql</artifactId> 
+  <version>9.1-901.jdbc4</version> 
+  </dependency>
   </dependencies>
-  <build>
-    <finalName>Ball</finalName>
+<build>
+  <finalName>Ball</finalName> 
   </build>
-</project>
-=======
-<<<<<<< HEAD
-            <dependency>
-	<groupId>org.mybatis</groupId>
-	<artifactId>mybatis</artifactId>
-	<version>3.0.6</version>
-			</dependency>
-</dependencies>
-  <build>
-    <finalName>my-webapp</finalName>
-  </build>
-</project>
-=======
-</dependencies>
-</project>
->>>>>>> ca87d6a76330340b678cb824d59964ca1a65cae0
->>>>>>> fe9b1c5692e6c943af468db36476a1dc8dff21fa
+  </project>
