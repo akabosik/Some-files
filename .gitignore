@@ -1,0 +1,6 @@
+/target
+.*
+/skip-db-script
+src/main/sql/reinit.err
+src/main/sql/reinit.log
+bin/
