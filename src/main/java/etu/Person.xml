@@ -3,19 +3,16 @@
    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
     
-<mapper namespace="personMapper">
+<mapper namespace="Person">
 
   <resultMap id="personResult" type ="Person">
-   
-
-<result property="id" column="ID" jdbcType="NUMERIC"/>
-   
-
-<result property="name" column="NAME" jdbcType="VARCHAR"/>
+   <result property="age" column="id"/>
+   <result property="name" column="name"/>
+   <result property="date" column="birthday"/>
   </resultMap>  
   
-  <select id="selectCtx" parameterType="int" resultMap="personResult">  
-    select * from MASTER where ID = #{id}
+  <select id="getAll" parameterType="int" resultMap="personResult">  
+    select * from SASHA 
   </select>
   
 </mapper>
