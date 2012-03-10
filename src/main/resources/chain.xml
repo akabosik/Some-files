@@ -11,7 +11,7 @@
         <property name="driver" value="postgresql-9.1-901.jdbc4.jar"/> 
         <property name="url" value="jdbc:postgresql://localhost:5432/sasha"/> 
         <property name="username" value="postgres"/> 
-        <property name="password" value="$654321"/> 
+        <property name="password" value="654321"/> 
       </dataSource> 
     </environment> 
   </environments> 

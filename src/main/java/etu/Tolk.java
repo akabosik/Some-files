@@ -1,29 +1,25 @@
 package etu;
 
 import java.sql.*;
-import java.io.*;
-import java.io.ObjectInputStream.GetField;
 import java.util.*;
-
-import org.omg.CORBA.PUBLIC_MEMBER;
 
 public class Tolk {
 	public static void main(String[] args) {
 		System.setProperty("jdbc.drivers", "org.postgresql.Driver");
-		String url = "jdbc:postgresql:sasha";
-		String username = "postgres";
-		String password = "654321";
-		Connection conn;
+//		String url = "jdbc:postgresql:sasha";
+//		String username = "postgres";
+//		String password = "654321";
+		PersonDAO personDAO = new PersonDAOImpl();
+		List<Person> persons;
 		try {
-			conn = DriverManager.getConnection(url, username, password);
-			
-			
-			
-			PersonDAO personDAO = new PersonDAOImpl(conn);
-			List<Person> persons = personDAO.getPersons();
+			persons = personDAO.getPersons();
 			for (Person person : persons) {
 				System.out.println(person);
-			}
+				}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
 			
 			
 			// stat.execute("DROP TABLE Greetings");
@@ -32,9 +28,7 @@ public class Tolk {
 			 * 
 			 * "CREATE TABLE lala"; stat.executeUpdate(command);
 			 */
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
+		
 
 	}
 }
